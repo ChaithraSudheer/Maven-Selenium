@@ -22,24 +22,24 @@ public class SeleniumGridTestAmazon
 		{
 			ChromeOptions options=new ChromeOptions();
 			driver=new RemoteWebDriver(new URL("http://localhost:4444"),options);
-			System.out.println("Connection is Established with Chrome Browser");
+			System.out.println("Connection is Established with Chrome Browser: "+bname);
 		}
 		if(bname.equalsIgnoreCase("Firefox"))
 		{
 			FirefoxOptions options=new FirefoxOptions();
 			driver=new RemoteWebDriver(new URL("http://localhost:4444"),options);
-			System.out.println("Connection is Established with Firefox Browser");
+			System.out.println("Connection is Established with Firefox Browser: "+bname);
 		}
 		if(bname.equalsIgnoreCase("Edge"))
 		{
 			EdgeOptions options=new EdgeOptions();
 			driver=new RemoteWebDriver(new URL("http://localhost:4444"),options);
-			System.out.println("Connection is Established with Edge Browser");
+			System.out.println("Connection is Established with Edge Browser: "+bname);
 		}
 		
-		Thread.sleep(5000);
+		Thread.sleep(9000);
 		driver.get("https://www.amazon.in");
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		System.out.println("Application Executing parallelly...");
 		driver.quit();	
   }
