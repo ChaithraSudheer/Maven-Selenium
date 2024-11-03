@@ -1,54 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-23T12:20:08 IST" name="Suite" finished-at="2024-01-23T12:20:38 IST" duration-ms="29954">
+  <suite started-at="2024-06-28T00:11:16 IST" name="Default suite" finished-at="2024-06-28T00:11:17 IST" duration-ms="1074">
     <groups>
     </groups>
-    <test started-at="2024-01-23T12:20:08 IST" name="ChromeTest" finished-at="2024-01-23T12:20:30 IST" duration-ms="21842">
-      <class name="devOpsAssignment.SeleniumGridTestAmazon">
-        <test-method signature="browserTest(java.lang.String)[pri:0, instance:devOpsAssignment.SeleniumGridTestAmazon@4466af20]" started-at="2024-01-23T12:20:08 IST" name="browserTest" finished-at="2024-01-23T12:20:30 IST" duration-ms="21710" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-06-28T00:11:16 IST" name="Default test" finished-at="2024-06-28T00:11:17 IST" duration-ms="1074">
+      <class name="datadriventest.ExtentReportDemo">
+        <test-method signature="reportTest()[pri:0, instance:datadriventest.ExtentReportDemo@5b239d7d]" started-at="2024-06-28T00:11:16 IST" name="reportTest" finished-at="2024-06-28T00:11:17 IST" duration-ms="995" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserTest -->
-      </class> <!-- devOpsAssignment.SeleniumGridTestAmazon -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2024-01-23T12:20:08 IST" name="EdgeTest" finished-at="2024-01-23T12:20:30 IST" duration-ms="22244">
-      <class name="devOpsAssignment.SeleniumGridTestAmazon">
-        <test-method signature="browserTest(java.lang.String)[pri:0, instance:devOpsAssignment.SeleniumGridTestAmazon@35d019a3]" started-at="2024-01-23T12:20:08 IST" name="browserTest" finished-at="2024-01-23T12:20:30 IST" duration-ms="22145" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserTest -->
-      </class> <!-- devOpsAssignment.SeleniumGridTestAmazon -->
-    </test> <!-- EdgeTest -->
-    <test started-at="2024-01-23T12:20:08 IST" name="FirefoxTest" finished-at="2024-01-23T12:20:38 IST" duration-ms="29954">
-      <class name="devOpsAssignment.SeleniumGridTestAmazon">
-        <test-method signature="browserTest(java.lang.String)[pri:0, instance:devOpsAssignment.SeleniumGridTestAmazon@351d00c0]" started-at="2024-01-23T12:20:08 IST" name="browserTest" finished-at="2024-01-23T12:20:38 IST" duration-ms="29853" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserTest -->
-      </class> <!-- devOpsAssignment.SeleniumGridTestAmazon -->
-    </test> <!-- FirefoxTest -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- reportTest -->
+      </class> <!-- datadriventest.ExtentReportDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
